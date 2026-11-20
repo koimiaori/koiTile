@@ -19,9 +19,15 @@ Windows 10 风格开始菜单磁贴的编辑工具：选图、写文字、挑图
 
 Download Release koiTile-v0.1.0-win-x64.zip，解压后双击 `koiTile.exe`，数据保存在 `%APPDATA%\koiTile`。
 
+需要开启开发者模式，使用命令
+```powershell
+reg add "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\AppModelUnlock" /v AllowDevelopmentWithoutDevLicense /t REG_DWORD /d 1 /f
+```
+
 碎碎念...为什么在Winui3中添加ImageIconSource会报错啊...
 
 ## 构建
 
 ```powershell
 .\koiTile-main\build.ps1
+```
