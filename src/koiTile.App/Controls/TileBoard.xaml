@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<UserControl
+    x:Class="koiTile.Controls.TileBoard"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid
+        x:Name="Board"
+        Background="Transparent"
+        IsTabStop="True"
+        UseSystemFocusVisuals="False"
+        PointerPressed="OnBoardPointerPressed"
+        PointerMoved="OnBoardPointerMoved"
+        PointerReleased="OnBoardPointerReleased"
+        PointerCaptureLost="OnBoardPointerCaptureLost"
+        PointerWheelChanged="OnBoardPointerWheelChanged">
+        <Canvas x:Name="FillLayer" IsHitTestVisible="False" />
+        <Canvas x:Name="ImageLayer" IsHitTestVisible="False">
+            <Image x:Name="BackgroundImage" Stretch="Fill" />
+        </Canvas>
+        <Canvas x:Name="LineLayer" IsHitTestVisible="False" />
+        <Canvas x:Name="IconLayer" IsHitTestVisible="False" />
+        <Canvas x:Name="CellLayer" Background="Transparent" />
+        <Canvas x:Name="ButtonLayer" />
+    </Grid>
+</UserControl>

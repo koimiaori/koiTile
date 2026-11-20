@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Page
+    x:Class="koiTile.Pages.IconPage"
+    Background="Transparent"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <ScrollViewer>
+        <StackPanel Padding="16" Spacing="12">
+            <ToggleSwitch x:Name="EnableToggle" Header="开启" Toggled="OnToggle" />
+            <TextBlock Text="图标路径" />
+            <Grid ColumnSpacing="6">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="Auto" />
+                    <ColumnDefinition Width="Auto" />
+                </Grid.ColumnDefinitions>
+                <TextBox Grid.Column="0" x:Name="PathBox" IsReadOnly="True" TextWrapping="NoWrap" />
+                <Button Grid.Column="1" Content="…" Click="OnPick" />
+                <Button Grid.Column="2" x:Name="CheckButton" Content="✓" Click="OnCheck" />
+            </Grid>
+            <TextBlock Text="预览" />
+            <Image x:Name="Preview" Width="64" Height="64" Stretch="Uniform" HorizontalAlignment="Left" />
+            <TextBlock Text="偏移 X" />
+            <NumberBox x:Name="OffsetX" />
+            <TextBlock Text="偏移 Y" />
+            <NumberBox x:Name="OffsetY" />
+            <Button Content="应用" Click="OnApply" />
+            <TextBlock x:Name="Hint" TextWrapping="Wrap" />
+        </StackPanel>
+    </ScrollViewer>
+</Page>

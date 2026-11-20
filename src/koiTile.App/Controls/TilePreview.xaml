@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<UserControl
+    x:Class="koiTile.Controls.TilePreview"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+
+    <Grid x:Name="Root">
+        <Border x:Name="Fill" />
+        <Canvas x:Name="PictureLayer" />
+        <Canvas x:Name="IconLayer" />
+        <TextBlock
+            x:Name="Caption"
+            HorizontalAlignment="Left"
+            VerticalAlignment="Bottom"
+            Foreground="White"
+            IsHitTestVisible="False"
+            TextWrapping="Wrap"
+            MaxLines="2"
+            TextTrimming="CharacterEllipsis" />
+        <Border x:Name="Edge" BorderThickness="2" IsHitTestVisible="False" />
+    </Grid>
+</UserControl>
