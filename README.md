@@ -23,3 +23,5 @@ Download Release koiTile-v0.1.0-win-x64.zip，解压后双击 `koiTile.exe`，�
 
 ```powershell
 .\koiTile-main\build.ps1
+
+-碎碎念...为什么在Winui3中添加<ImageIconSource>会报错啊...
