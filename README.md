@@ -6,6 +6,10 @@ Windows 10 风格开始菜单磁贴的编辑工具：选图、写文字、挑图
 
 - 通过创建应用的方式自定义Explorer Patcher上的磁贴
 
+## 视频介绍
+
+[![点击观看视频](https://i2.hdslb.com/bfs/archive/4378dd2f0f9af4cee66eef5892cc57c5bd3b24df.jpg)](https://www.bilibili.com/video/BV14oypzBE4w)
+
 ## 环境要求
 
 - 任何能运行 Explorer Patcher 的 Windows 11 ？
