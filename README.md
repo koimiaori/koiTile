@@ -13,9 +13,9 @@ Windows 10 风格开始菜单磁贴的编辑工具：选图、写文字、挑图
 ## 环境要求
 
 - Windows 10 1809+ / 任何能运行 Explorer Patcher 的 Windows 11 ？
-- .NET 9运行时、Windows App Runtime 1.7.3
-- [下载 .NET 9 运行时](https://builds.dotnet.microsoft.com/dotnet/WindowsDesktop/9.0.23/windowsdesktop-runtime-9.0.23-win-x64.exe)（9.0.23 桌面运行时 x64）
-- [下载 Windows App SDK 1.7.3](https://aka.ms/windowsappsdk/1.7/1.7.250606001/windowsappruntimeinstall-x64.exe)（Windows App Runtime 1.7 x64）
+- [ExplorerPatcher官方仓库](https://github.com/valinet/ExplorerPatcher/releases)
+- [.NET 9 桌面运行时（x64）](https://builds.dotnet.microsoft.com/dotnet/WindowsDesktop/9.0.23/windowsdesktop-runtime-9.0.23-win-x64.exe)
+- [Windows App SDK 运行时 1.7.3（x64）](https://aka.ms/windowsappsdk/1.7/1.7.250606001/windowsappruntimeinstall-x64.exe)
 
 ## 使用
 
