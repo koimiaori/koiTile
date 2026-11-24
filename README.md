@@ -16,6 +16,7 @@ Windows 10 风格开始菜单磁贴的编辑工具：选图、写文字、挑图
 - [ExplorerPatcher官方仓库](https://github.com/valinet/ExplorerPatcher/releases)
 - [.NET 9 桌面运行时（x64）](https://builds.dotnet.microsoft.com/dotnet/WindowsDesktop/9.0.23/windowsdesktop-runtime-9.0.23-win-x64.exe)
 - [Windows App SDK 运行时 1.7.3（x64）](https://aka.ms/windowsappsdk/1.7/1.7.250606001/windowsappruntimeinstall-x64.exe)
+- [![下载 koiTile](https://img.shields.io/badge/%E4%B8%8B%E8%BD%BD-koiTile%20v0.1.0-2ea44f?style=for-the-badge&logo=windows11&logoColor=white)](https://github.com/koimiaori/koiTile/releases/latest)
 
 ## 使用
 
