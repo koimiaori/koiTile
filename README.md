@@ -14,10 +14,8 @@ Windows 10 风格开始菜单磁贴的编辑工具：选图、写文字、挑图
 
 - Windows 10 1809+ / 任何能运行 Explorer Patcher 的 Windows 11 ？
 - [访问ExplorerPatcher官方仓库](https://github.com/valinet/ExplorerPatcher/releases)
-- [![下载 .NET 9.0.23](https://img.shields.io/badge/%E4%B8%8B%E8%BD%BD-.NET%209%20%E8%BF%90%E8%A1%8C%E6%97%B6-512BD4?style=for-the-badge&logo=dotnet&logoColor=white)](https://builds.dotnet.microsoft.com/dotnet/WindowsDesktop/9.0.23/windowsdesktop-runtime-9.0.23-win-x64.exe)
-- [![下载 Windows App SDK 1.7.3](https://img.shields.io/badge/%E4%B8%8B%E8%BD%BD-Windows%20App%20SDK%201.7.3-0078D4?style=for-the-badge&logo=windows11&logoColor=white)](https://aka.ms/windowsappsdk/1.7/1.7.250606001/windowsappruntimeinstall-x64.exe)
-- [.NET 9.0 桌面运行时官方网站](https://dotnet.microsoft.com/zh-cn/download/dotnet/9.0)
-- [Windows App SDK官方网站](https://learn.microsoft.com/zh-cn/windows/apps/windows-app-sdk/downloads)
+- [![下载 .NET 9.0.23](https://img.shields.io/badge/%E4%B8%8B%E8%BD%BD-.NET%209%20%E8%BF%90%E8%A1%8C%E6%97%B6-512BD4?style=for-the-badge&logo=dotnet&logoColor=white)](https://builds.dotnet.microsoft.com/dotnet/WindowsDesktop/9.0.23/windowsdesktop-runtime-9.0.23-win-x64.exe) [.NET 9.0 桌面运行时官方网站](https://dotnet.microsoft.com/zh-cn/download/dotnet/9.0)
+- [![下载 Windows App SDK 1.7.3](https://img.shields.io/badge/%E4%B8%8B%E8%BD%BD-Windows%20App%20SDK%201.7.3-0078D4?style=for-the-badge&logo=windows11&logoColor=white)](https://aka.ms/windowsappsdk/1.7/1.7.250606001/windowsappruntimeinstall-x64.exe) [Windows App SDK官方网站](https://learn.microsoft.com/zh-cn/windows/apps/windows-app-sdk/downloads)
 
 ## 使用
 
